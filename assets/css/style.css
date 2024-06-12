@@ -413,6 +413,8 @@ section {
 }
 
 .section-title h2 {
+  position: relative;
+  display: inline-block;
   font-size: 32px;
   font-weight: bold;
   text-transform: uppercase;
@@ -420,6 +422,27 @@ section {
   padding-bottom: 0;
   color: #0f394c;
 }
+
+.section-title h2::before,
+.section-title h2::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  width: 100px; /* Adjust the width as needed */
+  height: 2px;
+  background-color: #0f394c;
+}
+
+.section-title h2::before {
+  left: -120px; /* Adjust the position as needed */
+  margin-right: 15px; /* Space between line and text */
+}
+
+.section-title h2::after {
+  right: -120px; /* Adjust the position as needed */
+  margin-left: 15px; /* Space between line and text */
+}
+
 
 .section-title p {
   margin-bottom: 0;
