@@ -1525,7 +1525,9 @@ section {
 }
 
 @media (max-width: 575px) {
-
+  .btn{
+    width: 50%;
+  }
   #footer .copyright,
   #footer .credits {
     float: none;
