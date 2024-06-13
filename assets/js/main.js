@@ -229,6 +229,5 @@
    */
   new PureCounter();
 
-  
 
 })()
