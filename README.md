@@ -11,4 +11,4 @@ Welcome to the Galactic Eye Initiative! This project connects astronomy enthusia
 | T.A.H. Umendra  | IT20645670   | it20645670@my.sliit.lk       |
 | P.S. Jayrathna  | IT20655952   | it20655952@my.sliit.lk       |
 
-![Screenshot of the website](https://github.com/PoornaSankalana/Research-Website/blob/master/Screenshot.png.png)
+![Screenshot of the website](https://github.com/PoornaSankalana/Research-Website/blob/master/Screenshot.png)
